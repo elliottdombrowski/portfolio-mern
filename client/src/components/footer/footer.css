@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+
+:root {
+    --white: white;
+    --navbackgroud: #01010d;
+    --background: #01010d;
+    --fade-one: #a7adba;
+    --fade-two: #65737e;
+    --fade-three: #343d46;
+    --fade-four: #343d46;
+
+    --font: 'Urbanist', sans-serif;
+}
+
+.footer {
+    width: 100vw;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    background: var(--navbackgroud);
+}
+
+.footer-text {
+    color: var(--white);
+    font-size: 115%;
+    font-family: var(--font);
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.footer-content {
+    margin: 0 1rem;
+}
+
+.btn-hvr:hover {
+    color: var(--fade-four);
+}

@@ -1,0 +1,23 @@
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 300%;
+    }
+}
+
+@media all and (max-width: 650px) {
+    h1 {
+        font-size: 250%;
+    }
+}
+
+@media all and (max-width: 550px) {
+    h1 {
+        font-size: 175%;
+    }
+}
+
+@media all and (max-width: 400px) {
+    h1 {
+        font-size: 150%;
+    }
+}
