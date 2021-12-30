@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = 3001;
 
-//what in the actual fuck how does this work
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
