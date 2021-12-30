@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3001;
 
+//why is this being required if its not being used?
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
