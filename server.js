@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = 3001;
 
-const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const sgMail = require('@sendgrid/mail')
