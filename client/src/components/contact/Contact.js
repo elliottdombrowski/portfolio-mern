@@ -64,6 +64,7 @@ function Contact() {
         <div className='contact-wrapper'>
             <div className='contact-form-wrapper'>
                 <form className='contact-form' name="contact" id="contact">
+                    <h3 className='contact-header'>contact me.</h3>
                     <input 
                         value={name}
                         type="text"

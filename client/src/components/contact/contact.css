@@ -80,6 +80,11 @@
     font-size: 110%;
 }
 
+.contact-header {
+    font-size: 300%;
+    margin-bottom: 1rem;
+}
+
 /* ANIMATION */
 .contact-input:hover,
 .contact-input:focus {
