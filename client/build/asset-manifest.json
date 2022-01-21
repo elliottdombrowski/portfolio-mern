@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-mern/static/css/main.707ab103.chunk.css",
+    "main.js": "/portfolio-mern/static/js/main.eea971b0.chunk.js",
+    "main.js.map": "/portfolio-mern/static/js/main.eea971b0.chunk.js.map",
+    "runtime-main.js": "/portfolio-mern/static/js/runtime-main.2d1bac1c.js",
+    "runtime-main.js.map": "/portfolio-mern/static/js/runtime-main.2d1bac1c.js.map",
+    "static/js/2.c0efe144.chunk.js": "/portfolio-mern/static/js/2.c0efe144.chunk.js",
+    "static/js/2.c0efe144.chunk.js.map": "/portfolio-mern/static/js/2.c0efe144.chunk.js.map",
+    "index.html": "/portfolio-mern/index.html",
+    "static/css/main.707ab103.chunk.css.map": "/portfolio-mern/static/css/main.707ab103.chunk.css.map",
+    "static/js/2.c0efe144.chunk.js.LICENSE.txt": "/portfolio-mern/static/js/2.c0efe144.chunk.js.LICENSE.txt",
+    "static/media/cloudsource.png": "/portfolio-mern/static/media/cloudsource.22d83b8d.png",
+    "static/media/comingsoon.jpeg": "/portfolio-mern/static/media/comingsoon.d6e36bbd.jpeg",
+    "static/media/expnotetaker.png": "/portfolio-mern/static/media/expnotetaker.9df6ba9b.png",
+    "static/media/orm1.png": "/portfolio-mern/static/media/orm1.7d7146b1.png",
+    "static/media/portfolio.png": "/portfolio-mern/static/media/portfolio.acd9fcdb.png",
+    "static/media/swept.png": "/portfolio-mern/static/media/swept.c428abee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d1bac1c.js",
+    "static/js/2.c0efe144.chunk.js",
+    "static/css/main.707ab103.chunk.css",
+    "static/js/main.eea971b0.chunk.js"
+  ]
+}
