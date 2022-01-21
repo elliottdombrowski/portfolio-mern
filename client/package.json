@@ -1,6 +1,6 @@
 {
-  "homepage": "https://elliottdombrowski.github.io/react-my-portfolio",
-  "name": "react-my-portfolio",
+  "homepage": "https://elliottdombrowski.github.io/portfolio-mern",
+  "name": "portfolio-mern",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
