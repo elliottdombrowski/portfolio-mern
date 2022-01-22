@@ -41,66 +41,6 @@ h1 {
     user-select: none;
 }
 
-/* .name-text5 {
-    animation: fadeInHeader ease 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 4s;
-    opacity: 0;
-}
-
-.name-text4 {
-    color: transparent;
-    text-shadow:
-        -0.03em -0.03em 0 var(--fade-four),
-        0.03em 0.03em 0 var(--fade-four);
-
-    animation: fadeInShadow ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 7s;
-    opacity: 0;
-}
-
-.name-text3 {
-    color: transparent;
-    text-shadow: 
-        -0.06em -0.06em 0 var(--fade-three),
-        0.06em 0.06em 0 var(--fade-three);
-
-    animation: fadeInShadow ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 6s;
-    opacity: 0;
-}
-
-.name-text2 {
-    color: transparent;
-    text-shadow: 
-        -0.09rem -0.09em 0 var(--fade-two),
-        0.09em 0.09em 0 var(--fade-two);
-    
-    animation: fadeInShadow ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 5s;
-    opacity: 0;
-}
-
-.name-text1 {
-    color: transparent;
-    text-shadow:
-        -0.1em -0.1em 0 var(--fade-one),
-        0.1em 0.1em 0 var(--fade-one);
-
-    animation: fadeInShadow ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 4s;
-    opacity: 0;
-} */
-
 @keyframes fadeInShadow {
     0% {
         opacity: 0;

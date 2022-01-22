@@ -20,4 +20,8 @@
     h1 {
         font-size: 150%;
     }
+
+    .name-text {
+      text-shadow: 3px 3px 0 var(--fade-three);
+    }
 }
