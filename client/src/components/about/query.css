@@ -91,10 +91,14 @@
   }
 
   .about-top {
-    height: 20vh;
+    height: 8vh;
+  }
+
+  .about-bottom {
+    margin-top: 1rem;
   }
 
   .about-sect-two {
-    bottom: 1.5rem;
+    bottom: 0;
   }
 }
