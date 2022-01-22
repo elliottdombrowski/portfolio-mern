@@ -38,16 +38,7 @@
     }
 
     .social-icons {
-        position: absolute;
-        display: none;
-        flex-direction: column;
-        top: 7vh;
-        left: 0.6rem;
-    }
-
-    .social-icons.active {
-        display: flex;
-        flex-direction: column;
+      align-items: center;
     }
 
     .hamburger.active .bar:nth-child(2) {

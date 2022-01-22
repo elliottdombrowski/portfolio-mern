@@ -1,4 +1,4 @@
-import { React, useEffect } from 'react';
+import { React } from 'react';
 import './navbar.css';
 import './query.css';
 import $ from 'jquery';
@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'; 
 import { faGithub, faLinkedin, faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
-// import { far } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
     faGithub,
@@ -15,7 +14,6 @@ library.add(
     faInstagram,
     faTwitter,
     faBell
-    // far
 );
 
 const github = <FontAwesomeIcon icon={faGithub} />
@@ -26,15 +24,6 @@ const twitter = <FontAwesomeIcon icon={faTwitter} />
 const bell = <FontAwesomeIcon icon={faBell} />
 
 function Navbar({ curPage, handlePageChange }) {
-    // useEffect(() => {
-    //     let ok = document.getElementById('media-show');
-    //     if (!ok.classList.contains('active')) {
-    //         ok.classList.add('active');
-    //     } else {
-    //         ok.classList.rem('active');
-    //     }
-    // }, []);
-
     const mobileMenu = () => {
         document.getElementById('burger').classList.toggle('active');
         document.getElementById('nav-right').classList.toggle('active');
