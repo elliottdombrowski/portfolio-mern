@@ -5,9 +5,9 @@
     "main": "server.js",
     "scripts": {
       "start": "node server.js --ignore client",
-      "watch": "nodemon",
       "develop": "concurrently \"npm run watch\" \"cd client && npm start\"",
-      "install": "concurrently \"npm i\"  \"cd ../client && npm i\"",
+      "watch": "nodemon",
+      "install": "npm i && cd ../client && npm i",
       "seed": "cd server && npm run seed",
       "build": "cd client && npm run build",
       "test": "echo \"Error: no test specified\" && exit 1"
