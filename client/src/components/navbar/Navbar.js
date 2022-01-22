@@ -115,10 +115,10 @@ function Navbar({ curPage, handlePageChange }) {
                 </a>
             </div>
 
-            <div class='hamburger' id="burger" onClick={() => mobileMenu()}>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div className='hamburger' id="burger" onClick={() => mobileMenu()}>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
             </div>
         </div>
     );

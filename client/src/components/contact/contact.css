@@ -61,7 +61,12 @@
     border-radius: 5px;
     font-size: 130%;
     color: var(--background);
+    background: var(--white);
     transition: 0.2s ease-in-out;
+}
+
+.contact-submit-btn:disabled {
+  background: var(--fade-two);
 }
 
 .divider {
@@ -100,4 +105,9 @@
 .contact-submit-btn:focus {
     background: var(--fade-one);
     color: var(--white);
+}
+
+.contact-submit-btn:disabled:hover {
+  background: var(--fade-two);
+  color: black;
 }

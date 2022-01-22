@@ -98,8 +98,10 @@ function Contact() {
                     <input
                         type="submit"
                         className='contact-submit-btn contact-input'
-                        placeholder='submit'
+                        id='contact-submit'
+                        placeholder='Coming Soon.'
                         onClick={formSubmit}
+                        disabled
                     />
 
                     <div className='error-msg' id="err-msg">{err}</div>
