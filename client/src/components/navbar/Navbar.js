@@ -29,6 +29,11 @@ function Navbar({ curPage, handlePageChange }) {
         document.getElementById('nav-right').classList.toggle('active');
     };
 
+    window.onscroll = () => {
+      document.getElementById('burger').classList.remove('active');
+      document.getElementById('nav-right').classList.remove('active');
+    }
+
     const navClick = () => {
         let nav = document.getElementById('nav-right');
         let burger = document.getElementById('burger');
