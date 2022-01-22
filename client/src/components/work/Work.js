@@ -1,5 +1,6 @@
 import React from 'react';
 import './work.css';
+import './query.css';
 
 function Work() {
     return (

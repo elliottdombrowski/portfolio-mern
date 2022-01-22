@@ -84,3 +84,17 @@
         font-size: 100%;
     }
 }
+
+@media all and (max-width: 390px) {
+  .about-header {
+    left: 5vw;
+  }
+
+  .about-top {
+    height: 20vh;
+  }
+
+  .about-sect-two {
+    bottom: 1.5rem;
+  }
+}

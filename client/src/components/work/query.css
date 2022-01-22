@@ -1,0 +1,6 @@
+@media all and (max-width: 390px) {
+  .work-header,
+  .work-links {
+    font-size: 100%;
+  }
+}
