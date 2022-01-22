@@ -41,7 +41,8 @@ function About() {
 
                     <div className='about-sect-info about-sect-info-two'>
                         <p className='about-sect-text'>
-                            in my time with NWU, i've developed a strong working understanding of JavaScript, ReactJS, ExpressJS, NodeJS, MySQL, MongoDB, GraphQL, CSS, as well as best SEO and Mobile First practices, as well as fundamentals in Model-View-Controller, Object-Relational-Mapping, and OOP implementations.
+                            in my time with NWU, i've developed a strong working understanding of JavaScript, ReactJS, ExpressJS, NodeJS, MySQL, MongoDB, GraphQL, CSS, as well as SEO and Mobile First best practices. <br />
+                            i am currently continuing education with Java and React Native.
                         </p>
                     </div>
                 </div>
