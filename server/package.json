@@ -1,5 +1,5 @@
 {
-    "name": "react-my-portfolio",
+    "name": "server",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
@@ -8,14 +8,6 @@
       "start": "node server.js --ignore client",
       "watch": "nodemon",
       "seed": "node seeds/seed.js"
-    },
-    "engines": {
-        "node": "16.13.1",
-        "npm": "8.1.2"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/elliottdombrowski/portfolio-mern.git"
     },
     "dependencies": {
         "@sendgrid/mail": "^7.6.0",
@@ -83,10 +75,6 @@
     },
     "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/elliottdombrowski/portfolio-mern/issues"
-    },
-    "homepage": "https://github.com/elliottdombrowski/portfolio-mern#readme",
     "devDependencies": {
         "nodemon": "^2.0.15"
     }
