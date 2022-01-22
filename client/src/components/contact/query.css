@@ -11,6 +11,10 @@
 }
 
 @media all and (max-width: 390px) {
+  .contact-form-wrapper {
+    width: 90%;
+  }
+
   .contact-header {
     font-size: 280%;
   }
