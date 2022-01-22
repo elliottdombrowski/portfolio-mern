@@ -38,6 +38,8 @@ function Navbar({ curPage, handlePageChange }) {
       };
     };
 
+    //IF ANYWHERE ON WINDOW IS CLICKED EXECPT FOR HAMBURGER MENU, NAVBAR WILL CLOSE.
+    //HAMBURGER LOGIC STILL CLOSES ON CLICK
     window.onclick = (event) => {
       if (event.target !== document.getElementById('burger') && event.target !== document.getElementById('bar-one') && event.target !== document.getElementById('bar-two') && event.target !== document.getElementById('bar-three')) {
         document.getElementById('burger').classList.remove('active');
