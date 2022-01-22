@@ -84,9 +84,9 @@
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/elliottdombrowski/react-my-portfolio/issues"
+        "url": "https://github.com/elliottdombrowski/portfolio-mern/issues"
     },
-    "homepage": "https://github.com/elliottdombrowski/react-my-portfolio#readme",
+    "homepage": "https://github.com/elliottdombrowski/portfolio-mern#readme",
     "devDependencies": {
         "nodemon": "^2.0.15"
     }
