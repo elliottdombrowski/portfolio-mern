@@ -105,7 +105,7 @@ function Contact() {
                     <div className='error-msg' id="err-msg">{err}</div>
                 </form>
                 <div className='resume'>
-                    <a className="res-hvr" href="#" rel="noreferrer" download>
+                    <a className="res-hvr" href="resume.pdf" rel="noreferrer" download>
                         download my resume here.
                     </a>
                 </div>
