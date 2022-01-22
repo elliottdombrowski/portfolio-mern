@@ -99,7 +99,7 @@ function Contact() {
                         type="submit"
                         className='contact-submit-btn contact-input'
                         id='contact-submit'
-                        placeholder='Coming Soon.'
+                        value='Coming Soon.'
                         onClick={formSubmit}
                         disabled
                     />
