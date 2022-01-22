@@ -28,19 +28,27 @@ function Navbar({ curPage, handlePageChange }) {
         document.getElementById('burger').classList.toggle('active');
         document.getElementById('nav-right').classList.toggle('active');
     };
+    
+    const navClick = () => {
+      let nav = document.getElementById('nav-right');
+      let burger = document.getElementById('burger');
+      if (nav.classList.contains('active')) {
+        nav.classList.remove('active');
+        burger.classList.remove('active');
+      };
+    };
 
+    window.onclick = (event) => {
+      if (event.target !== document.getElementById('burger') && event.target !== document.getElementById('bar-one') && event.target !== document.getElementById('bar-two') && event.target !== document.getElementById('bar-three')) {
+        document.getElementById('burger').classList.remove('active');
+        document.getElementById('nav-right').classList.remove('active');
+      }
+    };
+
+    //NOT CURRENTLY WORKING- BUT NOT CAUSING PROBLEMS.
     window.onscroll = () => {
       document.getElementById('burger').classList.remove('active');
       document.getElementById('nav-right').classList.remove('active');
-    }
-
-    const navClick = () => {
-        let nav = document.getElementById('nav-right');
-        let burger = document.getElementById('burger');
-        if (nav.classList.contains('active') && nav.classList.contains('active')) {
-            nav.classList.remove('active');
-            burger.classList.remove('active');
-        };
     };
 
     const toggleMedia = () => {
@@ -115,9 +123,9 @@ function Navbar({ curPage, handlePageChange }) {
             </div>
 
             <div className='hamburger' id="burger" onClick={() => mobileMenu()}>
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
+                <span className="bar" id='bar-one'></span>
+                <span className="bar" id='bar-two'></span>
+                <span className="bar" id='bar-three'></span>
             </div>
         </div>
     );
