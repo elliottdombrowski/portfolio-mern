@@ -39,7 +39,6 @@ function Navbar({ curPage, handlePageChange }) {
     };
 
     const toggleMedia = () => {
-        console.log('clicking');
         let bell = document.getElementById('bell');
         let media = document.getElementById('media-show');
         bell.classList.toggle('active');
@@ -55,11 +54,6 @@ function Navbar({ curPage, handlePageChange }) {
         } else if (!bell.classList.contains('active')) {
             $('#media-show').fadeOut(1000);
         };
-    };
-
-    const wrapperFunction = () => {
-        handlePageChange();
-        navClick();
     };
 
     return (
