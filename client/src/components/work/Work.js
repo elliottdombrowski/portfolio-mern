@@ -37,7 +37,7 @@ function Work() {
 
                 <div className='work-img-container work-img-one'>
                     <div className="overlay">
-                        <a target="_blank" rel="noreferrer" href="https://github.com/elliottdombrowski/workout-tracker">
+                        <a target="_blank" rel="noreferrer" href="https://mongo-workouttracker.herokuapp.com/?id=61e30032ce50db0016827ab5">
                             <img className="work-img" alt='cloudsource' src={require('../../assets/comingsoon.jpeg').default} />
                         </a>
                     </div>
@@ -55,7 +55,7 @@ function Work() {
                                 </h2>
                             </a>
 
-                            <a target="_blank" href="#" rel="noreferrer">
+                            <a target="_blank" href="https://mongo-workouttracker.herokuapp.com/?id=61e30032ce50db0016827ab5" rel="noreferrer">
                                 <h2 className='work-header work-links'>
                                     live
                                 </h2>
