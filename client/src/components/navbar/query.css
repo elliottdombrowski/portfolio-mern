@@ -64,4 +64,8 @@
     .social-icons {
         font-size: 75%;
     }
+
+    .social-icons > a {
+      margin: 0 0.6rem;
+    }
 }
