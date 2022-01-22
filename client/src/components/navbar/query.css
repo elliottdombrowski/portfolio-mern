@@ -18,19 +18,21 @@
     .navbar-right {
         flex-direction: column;
         position: fixed;
-        top: 3rem;
+        left: 1rem;
+        right: 1rem;
+        bottom: 4rem;
         padding: 1.5rem 0;
         background: var(--mobile-nav);
         border: 2px solid var(--white);
         border-radius: 10px;
         box-shadow: 5px 5px 0px var(--mobile-shadow);
-        right: -100%;
+        bottom: -100%;
         transition: 0.3s;
         z-index: 1;
     }
 
     .navbar-right.active {
-        right: 2%;
+        bottom: 7%;
     }
 
     .hamburger {
