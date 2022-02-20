@@ -27,7 +27,7 @@ function About() {
           <div className='about-sect-info about-sect-info-one'>
             <p className='about-sect-text'>
               i'm elliott. <br />
-              i'm from chicago, pursuring a career in web and software development. <br />
+              i'm from chicago, pursuring a career in web and software development. <br /><br />
               in january 2022, i graduated northwestern university's full stack flex coding bootcamp, earning a certificate of completion.
             </p>
           </div>
@@ -40,8 +40,8 @@ function About() {
 
           <div className='about-sect-info about-sect-info-two'>
             <p className='about-sect-text'>
-              in my time with NWU, i've developed a strong working understanding of JavaScript, ReactJS, ExpressJS, NodeJS, MySQL, MongoDB, GraphQL, CSS, as well as SEO and Mobile First best practices. <br />
-              i am currently continuing education with Java and React Native.
+              in my time as a web developer, i have developed a passion for minimalist design- giving the user a simple, enjoyable experience with no frills. <br /><br />
+              i'm passionate about building apps for people, for the people.
             </p>
           </div>
         </div>

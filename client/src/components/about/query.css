@@ -8,31 +8,43 @@
   .about-sect-text {
     font-size: 123%;
   }
+
+  .about-sect-one {
+    height: 300px;
+  }
 }
 
 @media all and (max-width: 1000px) {
   .about-sect-text {
     font-size: 120%;
   }
+
+  .about-sect-one {
+    height: 315px;
+  }
+
+  .about-sect-two {
+    height: 280px;
+  }
 }
 
 @media all and (max-width: 840px) {
   .about-sect-one {
-    height: 290px;
+    height: 310px;
   }
 
   .about-sect-two {
-    height: 330px;
+    height: 335px;
   }
 }
 
 @media all and (max-width: 789px) {
   .about-sect-one {
-    height: 330px;
+    height: 370px;
   }
 
   .about-sect-two {
-    height: 355px;
+    height: 345px;
   }
 }
 
@@ -93,6 +105,24 @@
   .about-sect {
     width: 80%;
   }
+
+  .about-sect-one {
+    height: 205px;
+  }
+
+  .about-sect-two {
+    height: 190px;
+  }
+}
+
+@media all and (max-width: 490px) {
+  .about-sect-one {
+    height: 220px;
+  }
+
+  .about-sect-two {
+    height: 200px;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -106,6 +136,16 @@
 
   .about-sect {
     width: 90%;
+  }
+
+  .about-sect-two {
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .about-sect-one {
+    height: 220px;
   }
 }
 
@@ -129,22 +169,28 @@
   }
 
   .about-sect-two {
-    bottom: 2rem;
+    bottom: 4rem;
   }
 }
 
 @media all and (max-width: 363px) {
   .about-sect-one {
-    height: 210px;
+    height: 230px;
   }
 
   .about-sect-two {
-    height: 230px;
+    height: 215px;
+    bottom: 2.5rem;
   }
 }
 
 @media all and (max-width: 355px) {
+  .about-sect-one {
+    height: 230px;
+  }
+
   .about-sect-two {
-    height: 245px;
+    height: 215px;
+    bottom: 3rem;
   }
 }
