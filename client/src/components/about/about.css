@@ -14,7 +14,8 @@
 
 .about-wrapper {
     background: var(--background);
-    height: 88vh;
+    /* height: 88vh; */
+    height: 100%;
     width: 100vw;
 }
 
@@ -49,7 +50,8 @@
 
 .about-bottom {
     position: relative;
-    height: 70vh;
+    height: 80vh;
+    margin-bottom: 10vh;
 }
 
 .about-sect {
@@ -88,8 +90,14 @@
 
 .about-sect-two {
     height: 300px;
-    bottom: 3rem;
+    bottom: 8rem;
     right: 3rem;
+}
+
+.about-sect-three {
+    height: 300px;
+    bottom: -1rem;
+    left: 6rem;
 }
 
 .about-sect-info {

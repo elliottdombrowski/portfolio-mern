@@ -45,6 +45,20 @@ function About() {
             </p>
           </div>
         </div>
+
+        <div className="about-sect about-sect-three">
+          <div className='about-sect-header about-sect-header-one'>
+            <h3 className='about-sect-header-text about-sect-header-text-one'>who i am</h3>
+          </div>
+
+          <div className='about-sect-info about-sect-info-one'>
+            <p className='about-sect-text'>
+              i'm elliott. <br />
+              i'm from chicago, pursuring a career in web and software development. <br /><br />
+              in january 2022, i graduated northwestern university's full stack flex coding bootcamp, earning a certificate of completion.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
