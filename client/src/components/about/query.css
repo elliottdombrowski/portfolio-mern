@@ -78,6 +78,10 @@
 }
 
 @media all and (max-width: 637px) {
+  .about-sect-header-text {
+    font-size: 110%;
+  }
+
   .about-sect-text {
     font-size: 100%;
   }
@@ -116,6 +120,10 @@
 }
 
 @media all and (max-width: 490px) {
+  .about-sect-header-text {
+    font-size: 100%;
+  }
+
   .about-sect-one {
     height: 220px;
   }
@@ -157,7 +165,7 @@
 
 @media all and (max-width: 390px) {
   .about-header {
-    left: 5vw;
+    left: 2vw;
   }
 
   .about-top {
@@ -169,6 +177,7 @@
   }
 
   .about-sect-two {
+    height: 210px;
     bottom: 4rem;
   }
 }
