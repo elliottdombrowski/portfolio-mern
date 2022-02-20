@@ -28,7 +28,7 @@
     border-radius: 10px;
     box-shadow: 5px 5px 0px var(--mobile-shadow);
     text-decoration: underline;
-    transition: 0.3s;
+    transition: 0.7s ease-in-out;
     z-index: 4;
   }
 
