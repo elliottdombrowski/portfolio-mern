@@ -12,6 +12,10 @@
   .about-sect-one {
     height: 300px;
   }
+
+  .about-sect-three {
+    bottom: 0;
+  }
 }
 
 @media all and (max-width: 1000px) {
@@ -36,11 +40,20 @@
   .about-sect-two {
     height: 335px;
   }
+
+  .about-sect-three {
+    bottom: -2rem;
+    height: 330px;
+  }
 }
 
 @media all and (max-width: 789px) {
+  .about-bottom {
+    height: 95vh;
+  }
+
   .about-sect-one {
-    height: 370px;
+    height: 345px;
   }
 
   .about-sect-two {
@@ -48,7 +61,11 @@
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 769px) {
+  .about-bottom {
+    height: 100vh;
+  }
+
   .about-top {
     font-size: 125%;
   }
@@ -67,13 +84,21 @@
   }
 
   .about-sect-one {
+    height: 220px;
     top: 2rem;
     left: 2rem;
   }
 
   .about-sect-two {
-    bottom: 4rem;
+    height: 200px;
+    bottom: 17rem;
     right: 2rem;
+  }
+
+  .about-sect-three {
+    height: 220px;
+    bottom: 0;
+    left: 2rem;
   }
 }
 
@@ -178,7 +203,7 @@
 
   .about-sect-two {
     height: 210px;
-    bottom: 4rem;
+    bottom: 16.5rem;
   }
 }
 

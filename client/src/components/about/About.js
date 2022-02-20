@@ -48,14 +48,13 @@ function About() {
 
         <div className="about-sect about-sect-three">
           <div className='about-sect-header about-sect-header-one'>
-            <h3 className='about-sect-header-text about-sect-header-text-one'>who i am</h3>
+            <h3 className='about-sect-header-text about-sect-header-text-one'>what i know</h3>
           </div>
 
           <div className='about-sect-info about-sect-info-one'>
             <p className='about-sect-text'>
-              i'm elliott. <br />
-              i'm from chicago, pursuring a career in web and software development. <br /><br />
-              in january 2022, i graduated northwestern university's full stack flex coding bootcamp, earning a certificate of completion.
+            though i enjoy working with reactjs primarily, i am knowledgable in javascript, nodejs, graphql, mongodb, mysql, jwt authentication, REST apis, css/scss, and html.<br /><br />
+            i am continuing my education with react native and java.
             </p>
           </div>
         </div>
