@@ -55,7 +55,6 @@
 .about-sect {
     position: absolute;
     width: 40%;
-    height: 60%;
     z-index: 0;
 }
 
@@ -67,7 +66,7 @@
     z-index: 2;
 
     font-family: var(--font);
-    font-size: 150%;
+    font-size: 130%;
     color: var(--white);
     box-shadow: 0px 3px 6px 0px var(--background);
 }
@@ -82,11 +81,13 @@
 }
 
 .about-sect-one {
+    height: 280px;
     top: 3rem;
     left: 3rem;
 }
 
 .about-sect-two {
+    height: 310px;
     bottom: 3rem;
     right: 3rem;
 }
@@ -97,7 +98,7 @@
     width: 90%;
     background: var(--white);
     border-radius: 15px;
-
+    font-size: 100%;
     z-index: 1;
 }
 
