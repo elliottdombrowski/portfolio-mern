@@ -1,7 +1,7 @@
 import React from 'react';
 
-import NavRight from './NavRight/NavRight';
-import NavLeft from './NavLeft/NavLeft';
+import NavLeft from '../NavLeft/NavLeft';
+import NavRight from '../NavRight/NavRight';
 
 import './styles.scss';
 import './query.scss';
