@@ -1,0 +1,49 @@
+@media all and (max-width: 768px) {
+  .nav-wrapper {
+    .nav-left {
+      li:nth-child(1) {
+        margin: 0 .8rem 0 0;
+      }
+    }
+
+    .nav-right {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      right: 0;
+      top: 4rem;
+      padding: 1rem;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      z-index: -1;
+
+      li {
+        width: 100%;
+        margin: .5rem 0;
+      }
+
+      &.active {
+        z-index: 100;
+        opacity: 1;
+      }
+    }
+
+    .hamburger {
+      display: block;
+      z-index: 1;
+
+      &.active {
+        .bar:nth-child(2) {
+          width: 25px;
+          opacity: 0;
+        }
+        .bar:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+        }
+        .bar:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+        }
+      }
+    }
+  }
+}

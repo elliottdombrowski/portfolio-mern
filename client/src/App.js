@@ -3,6 +3,8 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 
 import { AnimatePresence } from 'framer-motion';
 
+import Navbar from './components/navbar/Navbar';
+
 import './App.scss';
 
 // const App = () => <Container />;
@@ -22,8 +24,6 @@ const App = () => {
           <Route path='contact' element={<Contact />} />
         </Routes> */}
       </AnimatePresence>
-
-      <Footer />
     </div>
   );
 };
