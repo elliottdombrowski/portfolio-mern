@@ -1,8 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import './App.css';
-
 const animation = {
   initial: {opacity: 0},
   animate: {opacity: 1},

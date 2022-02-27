@@ -10,7 +10,9 @@ import About from './components/about/About';
 import Work from './components/work/Work';
 import Contact from './components/contact/Contact';
 import Container from './components/Container';
-import './App.css';
+
+
+import './App.scss';
 
 // const App = () => <Container />;
 const App = () => {
