@@ -12,7 +12,7 @@ const App = () => {
     <div className='App'>
       <Navbar />
       <AnimatePresence exitBeforeEnter>
-        <Routes
+        {/* <Routes
           key={location.pathname}
           location={location}
         >
@@ -20,7 +20,7 @@ const App = () => {
           <Route path='about' element={<About />} />
           <Route path='work' element={<Work />} />
           <Route path='contact' element={<Contact />} />
-        </Routes>
+        </Routes> */}
       </AnimatePresence>
 
       <Footer />
