@@ -3,13 +3,13 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 
 import { AnimatePresence } from 'framer-motion';
 
-import Homepage from './components/homepage/Homepage';
-import Navbar from './components/navbar/Navbar';
-import Footer from './components/footer/Footer';
-import About from './components/about/About';
-import Work from './components/work/Work';
-import Contact from './components/contact/Contact';
-import Container from './components/Container';
+// import Homepage from './components/homepage/Homepage';
+// import Navbar from './components/navbar/Navbar';
+// import Footer from './components/footer/Footer';
+// import About from './components/about/About';
+// import Work from './components/work/Work';
+// import Contact from './components/contact/Contact';
+// import Container from './components/Container';
 
 
 import './App.scss';
