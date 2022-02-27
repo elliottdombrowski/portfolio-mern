@@ -11,6 +11,12 @@ import { AnimatePresence } from 'framer-motion';
 // import Contact from './components/contact/Contact';
 // import Container from './components/Container';
 
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+import Homepage from './pages/Homepage/Homepage';
+import About from './pages/About/About';
+import Work from './pages/Work/Work';
+import Contact from './pages/Contact/Contact';
 
 import './App.scss';
 
