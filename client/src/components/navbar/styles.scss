@@ -1,0 +1,92 @@
+@import '../../variables.scss';
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  padding: 0 1.5rem;
+
+  //SETTING UP DISPLAY OF NAV LEFT && RIGHT
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    li {
+      margin: 0 .8rem;
+    }
+  }
+
+  .nav-left {
+    .nav-item {
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+     
+      &:hover {
+        opacity: .6;
+      }
+
+      .navbar-icons {
+        opacity: 0;
+        transition: 1s ease-in-out;
+
+        &.active {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .nav-right {
+    a {
+      position: relative;
+      font-family: $font-main;
+      font-size: 24px;
+      color: $white;
+      transition: 0.3s ease-in-out;
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $white;
+        transform-origin: bottom right;
+        transition: transform .3s ease-out;
+      }
+
+      &:hover {
+        opacity: .6;
+
+        &::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
+    }
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px 0;
+      transition: all 0.3s ease-in-out;
+      background: $white;
+
+      &:nth-child(2) {
+        margin-left: auto;
+        width: 20px;
+      }
+    }
+  }
+}
