@@ -7,6 +7,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 
 import Homepage from './pages/homepage/Homepage';
+import About from './pages/about/About';
 
 import './App.scss';
 
@@ -23,8 +24,8 @@ const App = () => {
           location={location}
         >
           <Route path='/' element={<Homepage />} />
-          {/* <Route path='about' element={<About />} />
-          <Route path='work' element={<Work />} />
+          <Route path='about' element={<About />} />
+          {/* <Route path='work' element={<Work />} />
           <Route path='contact' element={<Contact />} /> */}
         </Routes>
       </AnimatePresence>
