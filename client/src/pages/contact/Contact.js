@@ -6,11 +6,11 @@ import './styles.scss';
 import './query.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faArrowCircleDown, faArrowTurnUp, faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
-// const messageArrow = <FontAwesomeIcon icon={faArrowCircleDown} id='messageArrowDown' className='contact-arrow fa-2x' />
-// const arrowTurn = <FontAwesomeIcon icon={faArrowTurnUp} id='arrowTurn' className='fa-2x' />
-// const mail = <FontAwesomeIcon icon={faEnvelope} id='contactMail' className='fa-sm' />
-// const resume = <FontAwesomeIcon icon={faFile} id='contactResume' className='fa-sm' />
+import { faArrowCircleDown, faArrowTurnUp, faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
+const messageArrow = <FontAwesomeIcon icon={faArrowCircleDown} id='messageArrowDown' className='contact-arrow fa-2x' />
+const arrowTurn = <FontAwesomeIcon icon={faArrowTurnUp} id='arrowTurn' className='fa-2x' />
+const mail = <FontAwesomeIcon icon={faEnvelope} id='contactMail' className='fa-sm' />
+const resume = <FontAwesomeIcon icon={faFile} id='contactResume' className='fa-sm' />
 
 const Contact = () => {
   const showTextArea = () => {
@@ -63,7 +63,7 @@ const Contact = () => {
               id='contactMessage'
             />
             <i onClick={showTextArea}>
-              {/* {messageArrow} */}
+              {messageArrow}
             </i>
           </div>
 
@@ -81,7 +81,7 @@ const Contact = () => {
             <h1 className='temp-header temp-contact'>
               need to get in touch?
             </h1>
-            {/* {arrowTurn} */}
+            {arrowTurn}
           </div>
 
           <div className='temp-right'>
@@ -89,7 +89,7 @@ const Contact = () => {
               href="mailto: elliottdombrowski@gmail.com" 
               className='temp-contact'
             >
-              {/* {mail} */}
+              {mail}
               email me here.
             </a>
 
@@ -98,7 +98,7 @@ const Contact = () => {
               className='temp-contact'
               download
             >
-              {/* {resume} */}
+              {resume}
               get my resume here.
             </a>
           </div>
