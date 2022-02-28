@@ -1,0 +1,22 @@
+@import '../../variables.scss';
+
+.homepage-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 14vh);
+
+  .homepage-header {
+    font-family: $font-main;
+    font-size: 48px;
+    letter-spacing: 8px;
+  }
+
+  .homepage-subheader {
+    margin: .6rem 0;
+    font-family: $font-main;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
