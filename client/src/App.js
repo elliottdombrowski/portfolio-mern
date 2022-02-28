@@ -4,6 +4,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 import './App.scss';
 
@@ -13,6 +14,7 @@ const App = () => {
   return (
     <div className='App'>
       <Navbar />
+
       <AnimatePresence exitBeforeEnter>
         {/* <Routes
           key={location.pathname}
@@ -24,6 +26,8 @@ const App = () => {
           <Route path='contact' element={<Contact />} />
         </Routes> */}
       </AnimatePresence>
+
+      <Footer />
     </div>
   );
 };

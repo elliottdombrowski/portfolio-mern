@@ -5,8 +5,8 @@ import './styles.scss';
 import './query.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
-const backHome = <FontAwesomeIcon icon={faHouse} className='fa-xl nav-item' />
+import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons';
+const backHome = <FontAwesomeIcon icon={faArrowCircleLeft} className='fa-2x nav-item' />
 
 const Footer = () => {
   return (
