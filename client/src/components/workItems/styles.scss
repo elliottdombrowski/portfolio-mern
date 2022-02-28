@@ -1,0 +1,75 @@
+@import "../../variables.scss";
+
+.work-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $font-main;
+  padding-bottom: 4rem;
+
+  .work-card {
+    position: relative;
+    padding-bottom: 3rem;
+
+    &:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 3px;
+      background: $white;
+    }
+
+    &:not(:nth-child(1)) {
+      margin-top: 3rem;
+    }
+
+    .work-header {
+      font-size: 48px;
+    }
+
+    .work-desc {
+      margin: 0.8rem 0;
+      font-size: 24px;
+    }
+
+    img {
+      position: relative;
+      margin: 0.5rem 0;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      z-index: 1;
+    }
+
+    .work-link-wrapper {
+      padding: 10px;
+      margin: 0.5rem 0;
+      background: $background;
+      border-radius: 10px;
+
+      .work-tech {
+        font-size: 20px;
+        margin-bottom: 0.8rem;
+      }
+
+      .work-link-inner {
+        padding-top: 0.8rem;
+        border-top: 1px solid $white;
+        a {
+          color: $white;
+          font-size: 18px;
+          transition: 0.3s ease-in-out;
+
+          &:nth-child(2) {
+            margin-left: 1.5rem;
+          }
+
+          &:hover {
+            opacity: 0.6;
+          }
+        }
+      }
+    }
+  }
+}
