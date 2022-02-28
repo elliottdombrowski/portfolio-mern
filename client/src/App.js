@@ -8,6 +8,8 @@ import Footer from './components/footer/Footer';
 
 import Homepage from './pages/homepage/Homepage';
 import About from './pages/about/About';
+import Work from './pages/work/Work';
+import Contact from './pages/contact/Contact';
 
 import './App.scss';
 
