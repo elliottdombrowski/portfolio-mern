@@ -89,8 +89,8 @@ const Contact = () => {
               href="mailto: elliottdombrowski@gmail.com" 
               className='temp-contact'
             >
-              {mail}
               email me here.
+              {mail}
             </a>
 
             <a 
@@ -98,8 +98,8 @@ const Contact = () => {
               className='temp-contact'
               download
             >
-              {resume}
               get my resume here.
+              {resume}
             </a>
           </div>
         </span>

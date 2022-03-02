@@ -155,9 +155,8 @@
   }
 
   .temp-right {
-    
     svg {
-      margin-right: 5px;
+      margin-left: 5px;
     }
   }
 
@@ -180,7 +179,6 @@
     
     a {
       position: relative;
-      width: fit-content;
       transition: 0.3s ease-in-out;
 
       &::after {

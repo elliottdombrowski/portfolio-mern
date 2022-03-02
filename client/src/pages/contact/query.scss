@@ -13,6 +13,12 @@
 @media all and (max-width: 900px) {
   .contact-wrapper {
     width: 45%;
+
+    .temp-contact-wrapper {
+      .temp-right {
+        text-align: right;
+      }
+    }
   }
 }
 
