@@ -4,13 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   height: calc(100vh - 14vh);
+  width: 30%;
+  margin: 0 auto;
 
   .contact-form {
     display: flex;
     flex-direction: column;
-    width: 30%;
     padding: 2rem;
     background: $background-gradient;
     border-radius: 20px;
@@ -134,7 +134,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 30%;
   margin-top: 2rem;
   padding: 2rem;
   background: $background-gradient;
