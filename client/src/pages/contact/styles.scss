@@ -14,11 +14,13 @@
     padding: 2rem;
     background: $background-gradient;
     border-radius: 20px;
+    box-shadow: 2px 2px 3px $background;
 
     .header-label {
-      font-family: $font-main;
       margin: 8px 0;
+      font-family: $font-main;
       font-size: 28px;
+      text-shadow: 2px 2px 2px $header-background;
     }
 
     .subheader-label {
@@ -137,6 +139,7 @@
   margin-top: 2rem;
   padding: 2rem;
   background: $background-gradient;
+  box-shadow: 2px 2px 3px $background;
   border-radius: 20px;
   font-family: $font-main;
 
