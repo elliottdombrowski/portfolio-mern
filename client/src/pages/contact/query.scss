@@ -1,10 +1,35 @@
-@media all and (min-width: 2000px) {
+@media all and (max-width: 1200px) {
   .contact-wrapper {
-    .contact-form {
-      width: 30%;
-    }
-    .temp-contact-wrapper {
-      width: 30%;
-    }
+    width: 35%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .contact-wrapper {
+    width: 40%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .contact-wrapper {
+    width: 45%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .contact-wrapper {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .contact-wrapper {
+    width: 60%;
+  }
+} 
+
+@media all and (max-width: 400px) {
+  .contact-wrapper {
+    width: 90%;
   }
 }
