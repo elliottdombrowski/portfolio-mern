@@ -26,6 +26,7 @@
 
     .work-header {
       font-size: 48px;
+      text-shadow: 3px 3px 2px $header-background;
     }
 
     .work-desc {
@@ -56,17 +57,38 @@
       .work-link-inner {
         padding-top: 0.8rem;
         border-top: 1px solid $white;
+
         a {
-          color: $white;
+          position: relative;
+          font-family: $font-main;
           font-size: 18px;
+          color: $white;
           transition: 0.3s ease-in-out;
 
           &:nth-child(2) {
-            margin-left: 1.5rem;
+            margin-left: 1rem;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: $white;
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-out;
           }
 
           &:hover {
             opacity: 0.6;
+
+            &::after {
+              transform: scaleX(1);
+              transform-origin: bottom left;
+            }
           }
         }
       }

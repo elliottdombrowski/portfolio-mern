@@ -14,6 +14,7 @@
     .about-header {
       font-family: $font-main;
       font-size: 250%;
+      text-shadow: 2px 2px 2px $header-background;
     }
 
     .about-arrow {
@@ -39,6 +40,7 @@
         padding: 10px;
         font-family: $font-main;
         font-size: 36px;
+        text-shadow: 2px 2px 1px $placeholder;
         color: $white;
         z-index: 100;
       }
