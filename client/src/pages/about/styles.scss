@@ -24,7 +24,7 @@
 
   .about-bottom {
     position: relative;
-    height: 85vh;
+    height: calc(500px * 2 + 75px);
 
     .about-section {
       position: absolute;
