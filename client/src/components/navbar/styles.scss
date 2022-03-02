@@ -20,21 +20,30 @@
   }
 
   .nav-left {
+    .nav-item-wrapper {
+      display: flex;
+      opacity: 0;
+      transition: 1s ease-in-out;
+
+      .nav-item {
+        cursor: default;
+      }
+
+      &.active {
+        opacity: 1;
+
+        .nav-item {
+          cursor: pointer;
+        }
+      }
+    }
+
     .nav-item {
       cursor: pointer;
       transition: 0.3s ease-in-out;
      
       &:hover {
         opacity: .6;
-      }
-
-      .navbar-icons {
-        opacity: 0;
-        transition: 1s ease-in-out;
-
-        &.active {
-          opacity: 1;
-        }
       }
     }
   }

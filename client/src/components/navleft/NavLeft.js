@@ -13,8 +13,9 @@ const NavLeft = () => {
   
   //TOGGLE OPACITY OF MEDIA LINKS
   const showNavItems = () => {
-    document.getElementById('nav-linkedin').classList.toggle('active');
-    document.getElementById('nav-github').classList.toggle('active');
+    document.getElementById('nav-wrapper').classList.toggle('active');
+    // document.getElementById('nav-linkedin').classList.toggle('active');
+    // document.getElementById('nav-github').classList.toggle('active');
   };
 
   return (
@@ -26,12 +27,15 @@ const NavLeft = () => {
         >
           {bell}
         </li>
-        <li className='nav-item'>
-          {linkedIn}
-        </li>
-        <li className='nav-item'>
-          {github}
-        </li>
+        
+        <div id='nav-wrapper' className='nav-item-wrapper'>
+          <li className='nav-item'>
+            {linkedIn}
+          </li>
+          <li className='nav-item'>
+            {github}
+          </li>
+        </div>
       </ul>
     </>
   );
