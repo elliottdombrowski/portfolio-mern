@@ -14,9 +14,9 @@
   .contact-wrapper {
     width: 45%;
 
-    .temp-contact-wrapper {
-      .temp-right {
-        text-align: right;
+    .contact-form {
+      .submit-btn {
+        padding: 10px 5px;
       }
     }
   }
@@ -25,14 +25,26 @@
 @media all and (max-width: 768px) {
   .contact-wrapper {
     width: 50%;
+
+    .contact-form {
+      .submit-btn {
+        width: 100%;
+      }
+    }
   }
 }
 
 @media all and (max-width: 600px) {
   .contact-wrapper {
-    width: 60%;
+    width: 70%;
   }
-} 
+}
+
+@media all and (max-width: 700px) {
+  .contact-wrapper {
+    width: 80%;
+  }
+}
 
 @media all and (max-width: 400px) {
   .contact-wrapper {
