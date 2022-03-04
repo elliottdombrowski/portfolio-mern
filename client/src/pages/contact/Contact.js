@@ -77,14 +77,14 @@ const Contact = () => {
 
         {/* TEMP */}
         <span className='temp-contact-wrapper'>
-          <div className='temp-left'>
+          <div className='temp-top'>
             <h1 className='temp-header temp-contact'>
               need to get in touch?
             </h1>
             {arrowTurn}
           </div>
 
-          <div className='temp-right'>
+          <div className='temp-bottom'>
             <a 
               href="mailto: elliottdombrowski@gmail.com" 
               className='temp-contact'
