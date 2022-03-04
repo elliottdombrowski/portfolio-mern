@@ -50,7 +50,9 @@ const About = () => {
             </span>
 
             <div className='about-body'>
-              <h1 className='about-text'>heyo testing</h1>
+              <h1 className='about-text'>
+
+              </h1>
             </div>
           </div>
 
@@ -60,7 +62,9 @@ const About = () => {
             </span>
 
             <div className='about-body'>
-              <h1 className='about-text'>heyo testing</h1>
+              <h1 className='about-text'>
+                
+              </h1>
             </div>
           </div>
 
