@@ -25,11 +25,22 @@ const About = () => {
           {/* MODULARIZE TO COMPONENTS LATER  */}
           <div className='about-section about-section-one'>
             <span className='about-header'>
-              test one
+              who i am.
             </span>
 
             <div className='about-body'>
-              
+              <h1 className='about-text'>
+                i'm elliott.
+                <br/>
+                i'm a graduate of northwestern university's full stack coding bootcamp.
+                <br/><br/>
+                formerly production manager and co-founder of the 105 in naperville il,
+                i find myself comfortable in leadership positions, though i love the dynamic of
+                a tight-knit team environment.
+                <br/><br/>
+                i'm driven by user-first, minimalist design, artistic expression, and a motivation to built web and mobile applications
+                to connect people driven to make change.
+              </h1>
             </div>
           </div>
 
@@ -39,7 +50,7 @@ const About = () => {
             </span>
 
             <div className='about-body'>
-
+              <h1 className='about-text'>heyo testing</h1>
             </div>
           </div>
 
@@ -47,9 +58,9 @@ const About = () => {
             <span className='about-header'>
               test three
             </span>
-            
-            <div className='about-body'>
 
+            <div className='about-body'>
+              <h1 className='about-text'>heyo testing</h1>
             </div>
           </div>
 
@@ -58,5 +69,5 @@ const About = () => {
     </AnimatePage>
   );
 };
- 
+
 export default About;
