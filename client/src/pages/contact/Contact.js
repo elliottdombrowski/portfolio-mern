@@ -8,7 +8,7 @@ import './query.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleDown, faArrowTurnUp, faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
 const messageArrow = <FontAwesomeIcon icon={faArrowCircleDown} id='messageArrowDown' className='contact-arrow fa-2x' />
-const arrowTurn = <FontAwesomeIcon icon={faArrowTurnUp} id='arrowTurn' className='fa-2x' />
+const arrowTurn = <FontAwesomeIcon icon={faArrowTurnUp} id='arrowTurn' className='fa-xl' />
 const mail = <FontAwesomeIcon icon={faEnvelope} id='contactMail' className='fa-sm' />
 const resume = <FontAwesomeIcon icon={faFile} id='contactResume' className='fa-sm' />
 
@@ -89,8 +89,8 @@ const Contact = () => {
               href="mailto: elliottdombrowski@gmail.com" 
               className='temp-contact'
             >
-              email me here.
               {mail}
+              email me here.
             </a>
 
             <a 
@@ -98,8 +98,8 @@ const Contact = () => {
               className='temp-contact'
               download
             >
-              get my resume here.
               {resume}
+              get my resume here.
             </a>
           </div>
         </span>

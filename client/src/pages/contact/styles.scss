@@ -133,28 +133,29 @@
 // TEMP
 
 .temp-contact-wrapper {
-  position: relative;
   margin-top: 2rem;
   padding: 1rem 2rem 2rem 2rem;
   background: $background-gradient;
   box-shadow: 2px 2px 3px $background;
   border-radius: 20px;
   font-family: $font-main;
-
+  
   .temp-top {
+    position: relative;
     width: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     text-align: left;
 
     .temp-header {
+      margin-left: 30px;
       font-size: 20px;
     }
 
     svg {
       position: absolute;
-      left: 35px;
-      bottom: 40px;
-      transform: rotate(90deg);
+      left: 0;
+      top: 4px;
+      transform: rotate(180deg);
       animation: arrow 2s infinite forwards;
       color: $white;
     }
@@ -162,7 +163,7 @@
 
   .temp-bottom {
     svg {
-      margin-left: 5px;
+      margin-right: 5px;
     }
   }
 
@@ -174,10 +175,19 @@
     .temp-contact {
       font-size: 18px;
       color: $white;
+      width: fit-content;
       text-align: right;
 
       &:nth-child(1) {
         margin-bottom: 8px;
+      }
+
+      &:nth-child(2) {
+        margin-left: 2px;
+
+        svg {
+          margin-right: 7px;
+        }
       }
     }
     
@@ -212,12 +222,12 @@
 
 @keyframes arrow {
   0% {
-    right: 4px;
+    top: 4px;
   }
   50% {
-    right: 10px;
+    top: 8px;
   }
   100% {
-    right: 4px;
+    top: 4px;
   }
 }
