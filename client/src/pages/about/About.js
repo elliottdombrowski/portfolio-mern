@@ -46,24 +46,49 @@ const About = () => {
 
           <div className='about-section about-section-two'>
             <span className='about-header'>
-              test two
+              what i do.
             </span>
 
             <div className='about-body'>
               <h1 className='about-text'>
-
+       
               </h1>
             </div>
           </div>
 
           <div className='about-section about-section-three'>
             <span className='about-header'>
-              test three
+              what i know.
             </span>
 
             <div className='about-body'>
               <h1 className='about-text'>
-                
+              through northwestern university, i studied an array of skills for web development,
+                including SEO, MVC, OOP, PWA, REST apis and mobile-first design.
+                i also studied workplace standards with git, scrum, and agile workflows.
+
+                <table>
+                  <tc>
+                    <th>front end</th>
+                    <tr>react.js</tr>
+                    <tr>javascript</tr>
+                    <tr>jquery</tr>
+                    <tr>html</tr>
+                    <tr>css</tr>
+                    <tr>scss / sass</tr>
+                  </tc>
+                  <tc>
+                    <th>back end</th>
+                    <tr>node.js</tr>
+                    <tr>express.js</tr>
+                    <tr>graphql</tr>
+                    <tr>jwt</tr>
+                    <tr>mongodb</tr>
+                    <tr>mysql</tr>
+                  </tc>
+                </table>
+
+                i'm continuing my learning with java and react native.
               </h1>
             </div>
           </div>
