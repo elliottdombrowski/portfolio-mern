@@ -51,7 +51,11 @@ const About = () => {
 
             <div className='about-body'>
               <h1 className='about-text'>
-       
+                i'm an artistically driven person; before shifting my career towards software development,
+                i co-founded the 105, an event venue located under a recording studio in downtown naperville, il.
+                <br/><br/>
+                as a musician myself, it was thrilling to be involved in building a community of like-minded artists.
+                <br/><br/>
               </h1>
             </div>
           </div>
