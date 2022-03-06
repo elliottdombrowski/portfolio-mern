@@ -122,6 +122,35 @@
     .about-bottom {
       .about-section {
         width: 350px;
+
+        .about-header {
+          font-size: 130%;
+        }
+
+        .about-body {
+          .about-text {
+            padding: 20px 1rem 1.5rem;
+            font-size: 14px;
+          }
+        }
+
+        &:nth-child(3) {
+          .about-body {
+            .about-text {
+              table {
+                padding: 4px 0;
+                th {
+                  padding-bottom: 0;
+                  font-size: 16px;
+                }
+
+                tr {
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

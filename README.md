@@ -1,4 +1,4 @@
-# REACT PORTFOLIO 
+# REACT PORTFOLIO || WORK IN PROGRESS
 
 ###  This is my personal portfolio page. <br /> Built with ReactJS, JavaScript, ExpressJS, NodeJS, and SCSS / SASS. <br /> ExpressJS / NodeJS backend functionality is used to allow for live Heroku deployment, as well as a future implementation of the Nodemailer npm package. <br /> FramerMotion is used to handle animations between page renders. <br /> All icons from FontAwesome. <br /> Fonts from GoogleFonts.
 

@@ -71,9 +71,9 @@ const About = () => {
                 including SEO, MVC, OOP, PWA, REST apis and mobile-first design.
                 i also studied workplace standards with git, scrum, and agile workflows.
 
-                <table>
-                  <tc>
-                    <th>front end</th>
+                <table className='skills-table'>
+                  <tc className='skills-table-column'>
+                    <th className='table-header'>front end</th>
                     <tr>react.js</tr>
                     <tr>javascript</tr>
                     <tr>jquery</tr>
@@ -81,8 +81,8 @@ const About = () => {
                     <tr>css</tr>
                     <tr>scss / sass</tr>
                   </tc>
-                  <tc>
-                    <th>back end</th>
+                  <tc className='skills-table-column'>
+                    <th className='table-header'>back end</th>
                     <tr>node.js</tr>
                     <tr>express.js</tr>
                     <tr>graphql</tr>
@@ -92,7 +92,7 @@ const About = () => {
                   </tc>
                 </table>
 
-                i'm continuing my learning with java and react native.
+                i'm continuing learning with java and react native.
               </h1>
             </div>
           </div>
