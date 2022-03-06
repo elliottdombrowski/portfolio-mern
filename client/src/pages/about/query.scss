@@ -49,6 +49,35 @@
       .about-section {
         width: 400px;
         height: 400px;
+
+        .about-header {
+          font-size: 210%;
+        }
+
+        .about-body {
+          .about-text {
+            padding: 30px 1rem 1.5rem;
+            font-size: 18px;
+          }
+        }
+
+        &:nth-child(3) {
+          .about-body {
+            .about-text {
+              table {
+                padding: 8px 0;
+                th {
+                  padding-bottom: 0;
+                  font-size: 20px;
+                }
+
+                tr {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -57,10 +86,43 @@
 @media all and (max-width: 1000px) {
   .about-wrapper {
     .about-bottom {
-      height: calc(350px * 2 + 75px);
+      height: calc(350px * 3 + 75px);
       .about-section {
-        width: 350px;
+        width: 600px;
         height: 350px;
+
+        &:nth-child(2) {
+          top: 35%;
+        }
+
+        .about-header {
+          font-size: 200%;
+        }
+
+        .about-body {
+          .about-text {
+            padding: 30px 1rem 1.5rem;
+            font-size: 18px;
+          }
+        }
+
+        &:nth-child(3) {
+          .about-body {
+            .about-text {
+              table {
+                padding: 8px 0;
+                th {
+                  padding-bottom: 0;
+                  font-size: 20px;
+                }
+
+                tr {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -69,11 +131,40 @@
 @media all and (max-width: 900px) {
   .about-wrapper {
     .about-bottom {
-      height: calc(300px * 2 + 75px);
+      height: calc(300px * 3 + 75px);
 
       .about-section {
-        width: 300px;
+        width: 550px;
         height: 300px;
+
+        .about-header {
+          font-size: 150%;
+        }
+
+        .about-body {
+          .about-text {
+            padding: 20px 1rem 1.5rem;
+            font-size: 17px;
+          }
+        }
+
+        &:nth-child(3) {
+          .about-body {
+            .about-text {
+              table {
+                padding: 3px 0;
+                th {
+                  padding-bottom: 0;
+                  font-size: 17px;
+                }
+
+                tr {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -90,6 +181,35 @@
         &:nth-child(2) {
           top: 34%;
         }
+
+        .about-header {
+          font-size: 145%;
+        }
+
+        .about-body {
+          .about-text {
+            padding: 20px 1rem 1.5rem;
+            font-size: 16px;
+          }
+        }
+
+        &:nth-child(3) {
+          .about-body {
+            .about-text {
+              table {
+                padding: 6px 0;
+                th {
+                  padding-bottom: 0;
+                  font-size: 17px;
+                }
+
+                tr {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -102,6 +222,35 @@
     .about-bottom {
       .about-section {
         width: 450px;
+        
+        .about-header {
+          font-size: 140%;
+        }
+
+        .about-body {
+          .about-text {
+            padding: 20px 1rem 1.5rem;
+            font-size: 15px;
+          }
+        }
+
+        &:nth-child(3) {
+          .about-body {
+            .about-text {
+              table {
+                padding: 6px 0;
+                th {
+                  padding-bottom: 0;
+                  font-size: 17px;
+                }
+
+                tr {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -112,6 +261,35 @@
     .about-bottom {
       .about-section {
         width: 400px;
+
+        .about-header {
+          font-size: 135%;
+        }
+
+        .about-body {
+          .about-text {
+            padding: 18px 1rem 1.5rem;
+            font-size: 15px;
+          }
+        }
+
+        &:nth-child(3) {
+          .about-body {
+            .about-text {
+              table {
+                padding: 4px 0;
+                th {
+                  padding-bottom: 0;
+                  font-size: 16px;
+                }
+
+                tr {
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
